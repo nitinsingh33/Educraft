@@ -19,6 +19,18 @@ header {
 .black {
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
+.search-form button {
+    padding: 1px 10px;
+    border: none;
+    border-radius: 33px;
+    background-color: #ec0349;  /* Button background color */
+    color: white;  /* Button text color */
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #ce1313;  /* Button hover color */
+}
 nav {
 	padding-top: 20px;
 	padding-bottom: 20px;
