@@ -23,10 +23,25 @@
             <!--Login Form-->
             <form id="login" class="input-group" action="index.html">
                 <div class="inp">
-                    <img src="Assests/icons/user.png"><input type="text" id="email" class="input-field" placeholder="Username or Phone Number" style="width: 88; border:none;" required="required">
+                    <img src="Assests/icons/user.png"><input type="text" id="email" class="input-field" placeholder="Username or Phone Number" style="width: 88; border:none;" required="required" >
                 </div>
-                
+                <div class="inp">
+                    <img src="Assests/icons/password.png"><input type="password" id="password" class="input-field" placeholder="Password" style="width: 88; border: none;" required="required">
+                </div>
+                <input type="checkbox" class="check-box">Remember Password
+				<button type="submit" class="submit-btn">Log In</button>
             </form>
+
+            <div class="other" id="other">
+                <div class="instead">
+                    <h3>or</h3>
+                </div>
+                <button class="connect" onclick="google()">
+                    <img src=""><span>Sign in with Google</span>
+                </button>
+            </div>
+
+            <!--Registration Form-->
         </div>
     
 </body>
