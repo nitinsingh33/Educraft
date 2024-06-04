@@ -149,3 +149,47 @@ body {
     left: 0.5em;
     margin-right: -50%;
 }
+span
+{
+	color: rgba(0,0,0,0.8);
+	font-size: 12px;
+}
+#login
+{
+	left: 50px;
+}
+#register
+{
+	left: 450px;
+}
+
+.other {
+	display: grid;
+	justify-content: center;
+	margin-top: 250px;
+}
+
+.connect {
+	display: flex;
+	margin: 10px;
+	padding: 0px 30px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border: 1px solid lightgray;
+	cursor: pointer;
+	outline: none;
+	/*border-radius: 10px;*/
+	background: #fff3;
+}
+.connect:hover {
+	background: #fff8;
+}
+.connect img {
+	padding: 5px;
+	width: 25px;
+}
+.connect span {
+	padding: 10px;
+	font-size: 15px;
+}
