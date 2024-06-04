@@ -48,3 +48,40 @@ body {
     border: 0;
     outline: none;
 }
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, #FA4B37, #DF2771);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.social-icons {
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img {
+    width: 30px;
+    margin: 0 7px;
+    cursor: pointer;
+    opacity: 0.85;
+}
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    font-size: 13px;
+    color: #010101;
+}
+.inp {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    justify-content: center;
+}
+.inp img {
+    width: 20px;
+    padding-right: 10px;
+}
