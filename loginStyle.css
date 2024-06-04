@@ -85,3 +85,35 @@ body {
     width: 20px;
     padding-right: 10px;
 }
+.input-field {
+    width: 100px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	outline: none;
+	background: transparent;
+	color: rgba(0,0,0);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(0,0,0,0.7);
+    /*opacity: 1; Firefox*/
+}
+#register .input-field {
+	color: rgba(0,0,0,0.8);
+}
+.submit-btn {
+    width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	color: #fff;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}    
+  
