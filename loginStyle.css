@@ -39,3 +39,12 @@ body {
 	box-shadow: 0 0 20px 9px rgba(0,0,0,.1);
 	border-radius: 30px;
 }
+
+.toggle-btn {
+    padding: 8px 30px;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    border: 0;
+    outline: none;
+}
