@@ -116,4 +116,36 @@ body {
 	outline: none;
 	border-radius: 30px;
 }    
-  
+.reg-btn {
+    background: lightgray;
+}
+.check-box {
+    cursor: pointer;
+    margin: 30px 10px 30px 0;
+}
+.instead {
+    margin-top: 10px;
+}
+.instead h3 {
+    overflow: hidden;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+}
+.instead h3:before,
+.instead h3:after {
+    background-color: rgba(0,0,0,0.5);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.instead h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.instead h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
