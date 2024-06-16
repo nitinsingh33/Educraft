@@ -55,3 +55,17 @@ function scrollAppear() {
     a.style.color = "#fff";
     b.style.color = "#000";
   }
+
+  // CheckBox Function
+  function goFurther(){
+    if (document.getElementById("chkAgree").checked == true) {
+      document.getElementById('btnSubmit').style = 'background: linear-gradient(to right, #FA4B37, #DF2771);';
+    }
+    else{
+      document.getElementById('btnSubmit').style = 'background: lightgray;';
+    }
+  }
+  
+  function google() {
+        window.location.assign("https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue&csig=AF-SEnbZHbi77CbAiuHE%3A1585466693&flowName=GlifWebSignIn&flowEntry=AddSession", "_blank");
+  }
