@@ -140,29 +140,27 @@
 <!--Reviews by Students (left space for future task)-->
 
 <!--CONTACT US-->
-    <div class="contact-container">
-    <h1>Contact Us</h1>
-    <form id="contact-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" >
-        <span class="error-message" id="name-error"></span>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" >
-        <span class="error-message" id="email-error"></span>
-        
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" >
-        <span class="error-message" id="subject-error"></span>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4"></textarea>
-        <span class="error-message" id="message-error"></span>
-        
-        <button type="submit">Submit</button>
-    </form>
-    <p id="response-message"></p>
-</div>
+    <div class="diffSection" id="contactus-section">
+	 <center><p style="font-size: 50px; padding: 100px">Contact Us</p></center> 
+	 <div class="csec"></div>
+	 <div class="back-contact">
+	      <div class="cc">
+              <form action="mailto:nitinsingh.iitp@gmail.com" method="post" enctype="text/plain">
+                    <label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+		     <center>
+		     <input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+		        </center>
+			<label>Email <span class="imp">*</span></label><br>
+			<input type="email" name="mail" style="width: 100%" required="required"><br>
+			<label>Message <span class="imp">*</span></label><br>
+			<input type="text" name="message" style="width: 100%" required="required"><br>
+			<label>Additional Details</label><br>
+			<textarea name="addtional"></textarea><br>
+			<button type="submit" id="csubmit">Send Message</button>
+                </form>
+                </div>
+	 </div>
+    </div>	    
 
 <!--FEEDBACK-->
     <div class="feedback">
