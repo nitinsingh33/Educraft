@@ -54,12 +54,12 @@ nav ul li a {
 nav ul li a:hover {
 	color: #fff;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #1d1d1f;
 }
 .active {
 	color: #fff;
 	border-radius: 5px;
-	background: #DF2771;
+	background: #1d1d1f;
 }
 .srch {
 	padding: 2px 10px;
@@ -84,12 +84,12 @@ nav ul li a:hover {
 .get-started {
 	margin-left: 50px;
 	padding: 5px 20px;
-	border: 2px solid #DF2771;
+	border: 2px solid #1d1d1f;
 	border-radius: 20px;
 	text-decoration: none;
 	
 	transition: .5s;
-	background-color: #DF2771;
+	background-color: #1d1d1f;
 	color: #fff;
 }
 .get-started:hover {
@@ -512,8 +512,8 @@ a, button {
 }
 
 /*Contact Us Section*/
-.csec {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+/* .csec {
+	background: linear-gradient(to right, #0e9e8f, #0e9e8f);
 	background-attachment: fixed; 
 	position: absolute;
 	width: 100%;
@@ -523,7 +523,7 @@ a, button {
 	transform-origin: top right;
 	transform: skewY(-10deg);
 	z-index: -1;
-}
+} */
 .back-contact {
 	margin-top: 0px;
 	transform: translateY(-50px);
@@ -578,7 +578,7 @@ form textarea {
 }
 #csubmit {
 	margin-top: 20px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #1d1d1f, #1d1d1f);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
