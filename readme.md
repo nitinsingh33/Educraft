@@ -19,3 +19,8 @@ Interview questions for students who are preparing for placements.
 It is completely responsive website, to provide smooth experience...😎  
 
 If you like my project, give it a star 🌟
+
+## Contributors
+<a href="https://github.com/nitinsingh33/Educraft/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nitinsingh33/Educraft"" />
+</a>
