@@ -22,5 +22,5 @@ If you like my project, give it a star 🌟
 
 ## Contributors
 <a href="https://github.com/nitinsingh33/Educraft/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=nitinsingh33/Educraft"" />
+  <img src="https://contrib.rocks/image?repo=nitinsingh33/educraft" />
 </a>
