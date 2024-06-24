@@ -693,7 +693,7 @@ form textarea {
 	margin-top: 50px;
 	width: 100%;
 	display: flex;
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b4.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("./Assests/extra/feedback\ bg.jpeg");
 	background-size: cover;
 	padding: 50px 80px;
 	background-attachment: fixed;
@@ -796,7 +796,7 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #0d6efd, #0d6efd);
 	margin: 2px;
 }
 footer .newsletter-form {
@@ -826,7 +826,7 @@ footer .btn {
 	padding: 18px 40px;
 	font-size: 16px;
 	color: #f1f1f1;
-	background: linear-gradient(to right, #d04843, #e40808);
+	background: linear-gradient(to right, #0d6efd, #0d6efd);
 	border: none;
 	font-weight: 700;
 	outline: none;
